@@ -80,6 +80,34 @@ nav {
   flex-direction: row;
   gap: 30px;
 }
+.antenna::before {
+  content: "";
+  display: block;
+  background-image: url("./img/Group 1.png");
+  width: 270px;
+  height: 120px;
+}
+.clock::before {
+  content: "";
+  display: block;
+  background-image: url("./img/Group 2.png");
+  width: 270px;
+  height: 120px;
+}
+.computer::before {
+  content: "";
+  display: block;
+  background-image: url("./img/Group 3.png");
+  width: 270px;
+  height: 120px;
+}
+.astronaut::before {
+  content: "";
+  display: block;
+  background-image: url("./img/Group 4.png");
+  width: 270px;
+  height: 120px;
+}
 .What_we_do {
   display: flex;
   flex-direction: column;
